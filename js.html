@@ -8,7 +8,12 @@
 <body>
 </body>
 <script>
-    let msg= "ola seja bem-vindo ao javascript"
-    window.alert(msg);
+    let nome= window.prompt("digite seu nome");
+    if (nome) {
+   window.alert(`ola ${nome}.bem vindo a entrada de dados via teclado`)
+} else {
+    window.alert ( 'nenhum nome foi digitado');
+}
 </script>
+</body>
 </html>

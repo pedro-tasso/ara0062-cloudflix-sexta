@@ -118,6 +118,7 @@ btnAlternarTema.textContent = 'Alternar para Tema Escuro';
 
 // FUNÇÃO 2: SALVAR O TEMA QUANDO ELE MUDA
 
+
 // ----------------------------------------------------
 
 function alternarESalvarTema() {

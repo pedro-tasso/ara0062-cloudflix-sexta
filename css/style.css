@@ -1,19 +1,52 @@
 * {
-            font-family: Arial;
-        }
-        p { 
-             color:blue;
+    font-family: Arial;
+}
 
-        }
-        .p1{
-            text-align: cent
-        }
-        #p2{ 
-background-color: aqua;
-font-weight: bold;
-        }
+p {
+    color: blue;
+
+}
+
+.p1 {
+    text-align: cent
+}
+
+#p2 {
+    background-color: aqua;
+    font-weight: bold;
+}
 
 footer p {
     font-size: 12px;
     color: darkslategrey;
+}
+
+/* NOVO: Classe para o tema escuro */
+
+.tema-escuro {
+
+    background-color: #121212 !important;
+    /* !important garante que sobrescreve o CSS do body */
+
+    color: #f0f0f0;
+
+}
+
+
+.tema-escuro header,
+.tema-escuro footer {
+
+    background-color: #000;
+
+}
+
+
+.tema-escuro main {
+
+    background-color: #2c2c2c;
+
+    color: #f0f0f0;
+
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
 }
